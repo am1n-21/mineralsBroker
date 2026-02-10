@@ -32,13 +32,13 @@ nav {
 
 nav > h3 {
     font-size: 1rem;
-    margin-left: 0.5em;
+    margin-left: 1em;
 }
 
 nav > .links-container {
     display: flex;
-    width: 30%;
-    margin-right: 0.5em;
+    gap: 2rem;
+    margin-right: 1em;
     justify-content: space-between;
 }
 
@@ -104,4 +104,34 @@ footer {
 footer > p {
     margin: 0;
     font-size: 0.5rem;
+}
+
+/* Tablet Displays */
+@media (min-width: 768px) {
+    .text-container {
+        max-width: 80%;
+    }
+
+    main > a > button {
+        width: 20%;
+    }
+
+    main {
+        margin-left: 2em;
+    }
+}
+
+/* Desktop Screen Tablets */
+@media (min-width: 1024px) {
+    .text-container {
+        max-width: 60%;
+    }
+
+    main > a > button {
+        width: 20%;
+    }
+
+    main {
+        margin-left: 2em;
+    }
 }
