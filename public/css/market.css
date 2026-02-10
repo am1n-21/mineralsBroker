@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HTML AND BODY */
+html, body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #1C2128;
+    color: white;
+}
+
+.gold-txt {
+    color: gold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h3 {
+    font-size: 1rem;
+    margin-left: 1em;
+}
+
+nav > .links-container {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1em;
+    justify-content: space-between;
+}
+
+.links-container > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: 500;
+    font-size: 0.9rem
+}
+
+.links-container > a:visited {
+    text-decoration: none;
+    color: silver;
+}
+
+.links-container > a:hover {
+    color: white;
+}
+
+/* MAIN */
+main {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > .mineral-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 90%;
+    height: 300px;
+    border: solid 1px gold;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.mineral-text-div {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.mineral-title {
+    margin: 0;
+}
+
+.mineral-description {
+    font-style: italic;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+.mineral-price-div {
+    margin-left: 1em;
+    align-self: center;
+}
+
+.price {
+    font-size: 1em;
+}
+
+.mineral-div > button {
+    width: 80%;
+    align-self: center;
+    padding: 0.7em;
+    border: 1px solid gold;
+    background-color: gold;
+    border-radius: 5px;
+    color: #1C2128;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mineral-div > button:hover {
+    background-color: #1C2128;
+    color: white;
+}

@@ -5,7 +5,7 @@ FRONT END DESIGN
 PAGES:
 1. Index.html
    A simple title page with title, small description, and a button leading to 
-   the market.
+   the market. ✅
 
 2. Market.html
    The page that makes the API calls. Has a nav bar. Displayed in grid, where 
@@ -27,3 +27,4 @@ PAGES:
 ////////////////////////////////////////////////////////////////////////////////
 TO DO
 ////////////////////////////////////////////////////////////////////////////////
+Do CSS for tablet and desktop displays for market.html

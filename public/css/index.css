@@ -46,12 +46,16 @@ nav > .links-container {
     text-decoration: none;
     color: silver;
     font-weight: 500;
-    font-size: 0.9rem
+    font-size: 0.9rem;
 }
 
 .links-container > a:visited {
     text-decoration: none;
     color: silver;
+}
+
+.links-container > a:hover {
+    color: white;
 }
 
 /* MAIN */
