@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HTML AND BODY */
+html, body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #1C2128;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.gold-txt {
+    color: gold;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h3 {
+    font-size: 1rem;
+    margin-left: 1em;
+}
+
+nav > .links-container {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1em;
+    justify-content: space-between;
+}
+
+.links-container > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.links-container > a:visited {
+    text-decoration: none;
+    color: silver;
+}
+
+.links-container > a:hover {
+    color: white;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    border: 1px solid gold;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+form > h3 {
+    align-self: center;
+}
+
+form > #top-container {
+    margin-top: 0;
+}
+
+form > .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.input-container > label {
+    margin-bottom: 0.3em;
+    font-size: 1rem;
+}
+
+.input-container > input {
+    background-color: #1C2128;
+    outline: none;
+    border: solid 1px silver;
+    border-radius: 5px;
+    color: white;
+    padding: 1em 0.5em;
+    width: 100;
+}
+
+#buy-input {
+    background-color: #1C2128;
+    border: solid 1px silver;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    width: 35%;
+}
+
+form > button {
+    margin: 2em 0 1em 1em;
+    padding: 0.5em 1em;
+    background-color: gold;
+    color: #1C2128;
+    border: 1px solid gold;
+    align-self: center;
+    border-radius: 5px;
+}
+
+form > button:hover {
+    background-color: #1C2128;
+    color: white;
+}
+
+/* Tablet Displays */
+@media (min-width: 768px) {
+    nav > .links-container {
+        gap: 2rem;
+    }
+}
+
+/* Desktop Screen Tablets */
+@media (min-width: 1024px) {
+
+}

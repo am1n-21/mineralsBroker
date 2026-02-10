@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/buy.css">
+</head>
+
+<body>
+    <nav>
+        <h3><span class="gold-txt">Minerals</span> Broker</h3>
+
+        <div class="links-container">
+            <a href="index.html">Home</a>
+            <a href="market.html">Market</a>
+            <a href="holdings.html">Holdings</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form id="buy-form">
+            <h3>Your Buy Order</h3>
+            
+            <div class="input-container" id="top-container">
+                <label for="name-input">Full Name</label>
+                <input id="name-input" type="text">
+            </div>
+
+            <div class="input-container">
+                <label for="email-input">Email</label>
+                <input id="email-input" type="email">
+            </div>
+
+            <div class="input-container">
+                <label for="number-input">Phone Number</label>
+                <input id="number-input" type="text">
+            </div>
+
+            <div class="input-container">
+                <label for="buy-input">Mineral Options</label>
+                <select id="buy-input" type="text">
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="aluminium">Aluminium</option>
+                    <option value="copper">Copper</option>
+                    <option value="platinum">Platinum</option>
+                    <option value="zinc">Zinc</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label for="price-input">Price ($USD)</label>
+                <input id="price-input" type="text">
+            </div>
+
+            <button id="buy-btn" type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <script src="../public/src/buy.js"></script>
+</body>
+
+</html>
