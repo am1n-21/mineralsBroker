@@ -90,6 +90,7 @@ main > a > button {
     font-weight: 600;
     padding: 1em;
     cursor: pointer;
+    margin-top: 0.2em;
 }
 
 main > a > button:hover {

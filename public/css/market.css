@@ -72,6 +72,7 @@ main > .mineral-div {
     justify-content: space-evenly;
 
     width: 90%;
+    max-width: 500px;
     height: 300px;
     border: solid 1px gold;
     border-radius: 10px;
@@ -119,4 +120,34 @@ main > .mineral-div {
 .mineral-div > button:hover {
     background-color: #1C2128;
     color: white;
+}
+
+/* Tablet Displays */
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+        width: 90%;
+    }
+
+    main > .mineral-div {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+/* Desktop Screen Tablets */
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5em;
+        width: 90%;
+    }
+
+    main > .mineral-div {
+        width: 100%;
+        margin-bottom: 0;
+    }
 }
