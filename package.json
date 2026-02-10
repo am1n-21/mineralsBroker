@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/am1n-21/mineralsBroker/tree/main"
   },
+  "type": "module",
   "author": "Shwan Amin",
   "license": "ISC",
   "devDependencies": {
