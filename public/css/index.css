@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HTML AND BODY */
+html, body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #1C2128;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gold-txt {
+    color: gold;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h3 {
+    font-size: 1rem;
+    margin-left: 0.5em;
+}
+
+nav > .links-container {
+    display: flex;
+    width: 30%;
+    margin-right: 0.5em;
+    justify-content: space-between;
+}
+
+.links-container > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: 500;
+    font-size: 0.9rem
+}
+
+.links-container > a:visited {
+    text-decoration: none;
+    color: silver;
+}
+
+/* MAIN */
+main {
+    margin: 3em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-container > h1 {
+    margin: 0;
+}
+
+.description-txt {
+    color: #F8F9FA;
+    font-size: 0.85rem;
+    margin-top: 0.3em;
+}
+
+main > a > button {
+    width: 30%;
+    border: 1px solid gold;
+    background-color: gold;
+    color: #1C2128;
+    font-weight: 600;
+    padding: 1em;
+    cursor: pointer;
+}
+
+main > a > button:hover {
+    background-color: #1C2128;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+footer > p {
+    margin: 0;
+    font-size: 0.5rem;
+}
