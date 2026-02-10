@@ -1,0 +1,11 @@
+{
+  "name": "mineralsbrokerapp",
+  "version": "1.0.0",
+  "description": "A project that attempts to replicate a brokerage app where you can purchase precious minerals.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shwan Amin",
+  "license": "ISC"
+}
