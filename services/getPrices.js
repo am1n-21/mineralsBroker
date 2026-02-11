@@ -6,7 +6,7 @@ const __dirname = import.meta.dirname;
 
 dotenv.config({ path: path.join(__dirname, '..', '.env') });
 
-async function getPrices() {
+export async function getPrices() {
     try {
         // Fetch gold, silver and platinum metal prices USD, (make up rest as not in free plan)
         const res = await fetch(`https://api.metalpriceapi.com/v1/latest?api_key=${process.env.API_KEY}&base=USD&currencies=XAU,XAG,XPT`);
@@ -36,5 +36,3 @@ async function getPrices() {
 
     return;
 }
-
-getPrices();
