@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 
 // CONSTS
 const __dirname = import.meta.dirname;
-const pathToPriceData = path.join(__dirname, 'data', 'priceData.json');
+const pathToPriceData = path.join(__dirname, '..', 'data', 'priceData.json');
 
 export async function loadPrices() {
     try {
