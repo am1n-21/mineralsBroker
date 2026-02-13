@@ -27,5 +27,9 @@ PAGES:
 ////////////////////////////////////////////////////////////////////////////////
 TO DO
 ////////////////////////////////////////////////////////////////////////////////
-Work on market.js to add event listener to serve buy page and work on logic for 
-buy page.
+Work on form, make sure it prevents default behaviour and then makes the API 
+put request to send the buy order. Make server handle that request and save 
+it to data. When submitted, hide the form and display a confirmation text
+
+After that need to make the holdings page to display the purchases made by 
+a name that is inputted.

@@ -30,4 +30,14 @@ copperPrice.textContent = '$' + data.copper;
 platPrice.textContent = '$' + data.platinum;
 zincPrice.textContent = '$' + data.zinc;
 
-
+// EVENT LISTENERS
+document.addEventListener('click', async (e) => {
+    try {
+        // Go to buy page
+        if (e.target.id === 'purchase-btn') {
+            window.location.href = '/buy.html'        
+        }
+    } catch (err) {
+        console.log(err);
+    }
+});
