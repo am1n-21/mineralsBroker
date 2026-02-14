@@ -53,6 +53,17 @@ const server = http.createServer(async (req, res) => {
             }
         }
         // Send all buy requests data to frontend holdings
+        else if (req.url === '/api/data' && req.method === 'GET') {
+            try {
+                // Read in current holdings from data
+                const holdings = await readHoldings();
+                serveRes(res, 200, 'application/json', JSON.stringify(holdings));
+                return;
+            } catch (err) {
+                serveRes(res, 400, 'application/json', JSON.stringify(err));
+                return;
+            }
+        }
 
         // Create path to content
         const pathToResource = path.join(

@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HTML AND BODY */
+html, body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #1C2128;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gold-txt {
+    color: gold;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h3 {
+    font-size: 1rem;
+    margin-left: 1em;
+}
+
+nav > .links-container {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1em;
+    justify-content: space-between;
+}
+
+.links-container > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.links-container > a:visited {
+    text-decoration: none;
+    color: silver;
+}
+
+.links-container > a:hover {
+    color: white;
+}
+
+/* Holdings Display */
+#holdings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.hold-container {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.h-container {
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h-container > h1 {
+    font-size: 1.5rem;
+}
+
+.h-container > h2 {
+    font-style: italic;
+    color: gray;
+    font-size: 1rem;
+}
+
+.h-container > h3 {
+    font-style: italic;
+    color: white;
+    margin-top: 0;
+}
+
+.p-container {
+    display: flex;
+    margin-right: 1em;
+}

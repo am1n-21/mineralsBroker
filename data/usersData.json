@@ -3,14 +3,21 @@
     "name": "Shwan Amin",
     "email": "shwan.amin@gmail.com",
     "number": "0403862229",
-    "buy": "platinum",
-    "price": "600"
+    "buy": "gold",
+    "price": "500"
   },
   {
     "name": "Shwan Amin",
     "email": "shwan.amin@gmail.com",
     "number": "0403862229",
-    "buy": "gold",
-    "price": "500"
+    "buy": "aluminium",
+    "price": "78234231"
+  },
+  {
+    "name": "James Dinh",
+    "email": "22138@fajdsjas",
+    "number": "211212",
+    "buy": "platinum",
+    "price": "111"
   }
 ]
