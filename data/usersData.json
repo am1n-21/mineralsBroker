@@ -1,3 +1,16 @@
-{
-    
-}
+[
+  {
+    "name": "Shwan Amin",
+    "email": "shwan.amin@gmail.com",
+    "number": "0403862229",
+    "buy": "gold",
+    "price": "500"
+  },
+  {
+    "name": "John Amin",
+    "email": "shwan.amin@gmail.com",
+    "number": "0403862229",
+    "buy": "gold",
+    "price": "500"
+  }
+]
