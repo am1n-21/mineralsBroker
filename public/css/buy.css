@@ -125,6 +125,22 @@ form > button:hover {
     color: white;
 }
 
+/* Success display */
+#success {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    border: 1px solid gold;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 2em;
+    font-size: 1.5rem;
+    color: white;
+    display: none;
+    margin-top: 6em;
+}
+
 /* Tablet Displays */
 @media (min-width: 768px) {
     nav > .links-container {
@@ -132,7 +148,3 @@ form > button:hover {
     }
 }
 
-/* Desktop Screen Tablets */
-@media (min-width: 1024px) {
-
-}

@@ -1,5 +1,6 @@
 // DOM
 const form = document.getElementsByTagName('form')[0];
+const successDiv = document.getElementById('success');
 
 // API call to put form data onto the server and throw any errors to event listener
 async function saveForm(value) {
@@ -32,6 +33,18 @@ form.addEventListener('submit', async (e) => {
     // Upload form data to server
     try {
         await saveForm(values);
+
+        form.style.display = 'none';
+        successDiv.style.display = 'block';
+        successDiv.textContent = 
+        `
+        Your purchase of ${values.buy.toUpperCase()} of price $${values.price} USD has been successful!
+        `
+
+        // Change windows back to buy market after successful purchase
+        setTimeout(() => {
+            window.location.href = '/market.html'
+        }, 3 * 1000);
     } catch (err) {
         console.log(err);
     }
